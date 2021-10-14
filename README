@@ -1,0 +1,3 @@
+This is an elf infector based on Silvio's algorithm with some extra things.
+You can edit parasite.h to put your data. The data can be extract using ./extra elf-program -o save.txt.
+oblique 2010, coolder 2021
