@@ -1,3 +1,18 @@
 This is an elf infector based on Silvio's algorithm with some extra things.
 You can edit parasite.h to put your data. The data can be extract using ./extra elf-program -o save.txt.
 oblique 2010, coolder 2021
+
+------------------------------------------------------------------------------------------------
+Here's an example to hide an image into the program called ls
+
+1. convert image to hex string.
+./convert2hex ./test.jpg -o hex_string.txt (program will generate to screen without -o option)
+
+2. copy hex string to parasite.h.
+
+3. injecting data to program
+./injector program-to-injected
+
+4. extract data from injected program
+./extract program-to-injected -o save.jpg (program will generate to screen without -o option)
+
