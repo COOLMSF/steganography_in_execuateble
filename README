@@ -3,7 +3,7 @@ You can edit parasite.h to put your data. The data can be extract using ./extra 
 oblique 2010, coolder 2021
 
 ------------------------------------------------------------------------------------------------
-Here's an example to hide an image into the program called ls
+Here's an example to hide an image into the program called program-to-injected
 
 1. convert image to hex string.
 ./convert2hex ./test.jpg -o hex_string.txt (program will generate to screen without -o option)
@@ -16,3 +16,5 @@ Here's an example to hide an image into the program called ls
 4. extract data from injected program
 ./extract program-to-injected -o save.jpg (program will generate to screen without -o option)
 
+
+Still in process...
